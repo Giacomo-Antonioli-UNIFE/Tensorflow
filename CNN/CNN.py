@@ -16,12 +16,12 @@ iterator = dataset.make_initializable_iterator()
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-from tensorflow.examples.tutorials.mnist import input_data
+
+import os
 
 # IMPORTS
-import numpy as np
 import tensorflow as tf
-import os
+from tensorflow.examples.tutorials.mnist import input_data
 
 MODE = 'TRAIN'
 
